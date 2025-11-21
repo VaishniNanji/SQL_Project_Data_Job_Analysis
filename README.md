@@ -244,6 +244,7 @@ Throughout this project, I strengthened a range of practical SQL skills:
 - **Analytical Problem-Solving**: Turning real-world business questions into precise SQL queries that produced clear, data-driven answers.
 - **Reusable, Readable SQL**: Writing cleaner, well-structured queries that are easier to debug, explain, and build on in future analysis.
 
+# Conclusions
 # Insights
 1. **Top-Paying Roles**
 
@@ -261,7 +262,7 @@ Throughout this project, I strengthened a range of practical SQL skills:
 
     When combining demand and salary, skills like Python, R, Tableau, Looker, Snowflake, Azure, AWS, Oracle, SQL Server, and SAS stand out as offering both strong job opportunities and competitive pay.
 
-# Conclusions
+### Closing Thoughts
 This project strenghtened my practical SQL skills and gave me a clearer picture of the 2023 Data Analyst job market. By working with real job posting data, I learned which skills are most in demand, which ones are linked to higher salaries, and where they overlap to offer the strongest value for skill development.
 
 The results highlight a clear priority stack for aspiring Data Analysts: start with SQL as the core, build strong skills in Excel, Python, and BI tools like Tableau or Power BI, and then add high-value skills such as cloud data warehouses and big data/ML tools as a next step. Overall, this analysis reinforced the importance of continuous upskilling and staying aligned with current market trends to stay competitive in the field.
