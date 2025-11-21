@@ -18,7 +18,8 @@ INNER JOIN
 WHERE
     job_title_short = 'Data Analyst' AND
     salary_year_avg IS NOT NULL AND
-    job_work_from_home = TRUE
+    (job_location = 'Anywhere' OR
+    job_location = 'London, UK')
 GROUP BY
     skills_job_dim.skill_id,
     skills
@@ -44,7 +45,8 @@ WITH high_demand_skills AS (
         skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
     WHERE
         job_title_short = 'Data Analyst' AND
-        job_work_from_home = TRUE AND
+        (job_location = 'Anywhere' OR
+        job_location = 'London, UK')
         salary_year_avg IS NOT NULL
     GROUP BY
         skills_job_dim.skill_id,
@@ -62,7 +64,8 @@ INNER JOIN
 WHERE
     job_title_short = 'Data Analyst' AND
     salary_year_avg is NOT NULL AND
-    job_work_from_home = TRUE
+    (job_location = 'Anywhere' OR
+    job_location = 'London, UK')
 GROUP BY
     skills_job_dim.skill_id
 )

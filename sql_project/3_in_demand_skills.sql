@@ -14,7 +14,9 @@ INNER JOIN
 INNER JOIN
     skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 WHERE
-    job_title_short = 'Data Analyst'
+    job_title_short = 'Data Analyst' AND
+    (job_location = 'Anywhere' OR
+    job_location = 'London, UK')
 GROUP BY
     skills
 ORDER BY
