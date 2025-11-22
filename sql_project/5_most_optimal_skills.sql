@@ -46,7 +46,7 @@ WITH high_demand_skills AS (
     WHERE
         job_title_short = 'Data Analyst' AND
         (job_location = 'Anywhere' OR
-        job_location = 'London, UK')
+        job_location = 'London, UK') AND
         salary_year_avg IS NOT NULL
     GROUP BY
         skills_job_dim.skill_id,
