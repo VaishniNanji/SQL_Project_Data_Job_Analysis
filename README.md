@@ -10,8 +10,8 @@ The data comes from this [SQL Course](https://lukebarousse.com/sql).
 
 ### The questions I wanted to answer through my SQL queries were:
 
-1. Which companies in London or offering remote roles provide the highest-paying Data Analyst jobs?
-2. What skills are required for these highest-paying Data Analyst jobs in London or remote?
+1. Which companies provide the highest-paying Data Analyst jobs?
+2. What skills are required for these highest-paying Data Analyst jobs?
 3. What are the most in-demand skills for Data Analysts?
 4. Which skills are associated with higher salaries?
 5. What are the most optimal skills to learn (skills high in-demand and high-paying) for a Data Analyst?
@@ -248,7 +248,7 @@ Throughout this project, I strengthened a range of practical SQL skills:
 - **Reusable, Readable SQL**: Writing cleaner, well-structured queries that are easier to debug, explain, and build on in future analysis.
 
 # Conclusions
-# Insights
+## Insights
 1. **Top-Paying Roles**
 
     The highest-paying remote Data Analyst roles span a wide range, with salaries up to $650,000, showing very high earning potential for senior or specialised positions.
