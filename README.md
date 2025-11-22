@@ -94,7 +94,7 @@ INNER JOIN
 ORDER BY
     salary_year_avg DESC;
 ```
-Here is a breakdown of the most demanded skills for the top 10 highest paying Data Analyst jobs in 2023:
+Here is a breakdown of the most demanded skills for the top 10 highest-paying Data Analyst jobs in 2023:
 - **SQL** is leading with a count of 8.
 - **Python** follows closely with a count of 7.
 - **Tableau** is the third most in-demand skill with a count of 6.
@@ -137,6 +137,7 @@ Here is the breakdown of the most demanded skills for Data Analysts in 2023:
 | Python   | 4482         |
 | Tableau  | 3817         |
 | Power BI | 2676         |
+
 *Table of the demand for the top 5 skills in Data Analyst job postings*
 
 ### 4. Skills Based on Salary
@@ -183,6 +184,7 @@ Here is a breakdown of the results for top paying skills for Data Analysts in 20
 | gitlab     | 154500               |
 | pandas     | 154368               |
 | swift      | 153750               |
+
 *Table of the average salary for the top 10 paying skills for Data Analysts*
 
 ### 5. Most Optimal Skills to Learn
@@ -234,6 +236,7 @@ Here is a breakdown of the most optimal skills for Data Analysts in 2023:
 | Java       | 17           | 106906               |
 | SSIS       | 12           | 106683               |
 | NoSQL      | 14           | 105869               |
+
 *Table of the most optimal skills for Data Analyst sorted by salary*
 
 # What I Learned
